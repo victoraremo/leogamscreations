@@ -4,8 +4,15 @@
     font-family: "Comic Neue", cursive;
 }
 .cont{
-    background-image: url(images/logo2.png);
-    
+    background-color: #faa4bf;
+}
+.brandd{
+    font-weight: 400;
+    font-style: normal;
+    background-image: linear-gradient(to right, #0d0da9, #c98a16);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
 }
 
 .header{
@@ -35,7 +42,7 @@
     font-style: normal;
     background-image: linear-gradient(to right, #ff0000, #3e67b4);
     background-clip: text;
-    -webkit-background-clip: text; /* For older WebKit browsers */
+    -webkit-background-clip: text;
     color: transparent;
 }
 .brand{
